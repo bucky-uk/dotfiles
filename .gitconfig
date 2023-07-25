@@ -1,0 +1,22 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	name = "Steve O'Hara"
+	email = github@sohara.design
+[merge]
+	tool = kdiff3
+[diff]
+	guitool = kdiff3
+[alias]
+	ll = log --oneline
+	last = log -1 HEAD --stat
+	rv = remote -v
+	d = diff
+	dv = difftool -t kdiff3 -y
+	gl = config --global -l
+	se = !git rev-list --all | xargs git grep -F
+	st = status -sb
