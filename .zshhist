@@ -1,3 +1,17 @@
 history
 exec zsh
+exi
+quit
 exit
+zsh
+g current
+nvm use 16
+aws
+aws profile
+setenv eb prod
+printenv
+zsh
+zsh
+setenv eb dev
+setenv eb qa
+zsh

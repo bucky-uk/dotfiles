@@ -1414,7 +1414,7 @@
   #[ aws: aws profile (https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html) ]#
   # Show aws only when the command you are typing invokes one of these tools.
   # Tip: Remove the next line to always show aws.
-  typeset -g POWERLEVEL9K_AWS_SHOW_ON_COMMAND='aws|awless|terraform|pulumi|terragrunt'
+  # typeset -g POWERLEVEL9K_AWS_SHOW_ON_COMMAND='aws|awless|terraform|pulumi|terragrunt|serverless|sls|prisma'
 
   # POWERLEVEL9K_AWS_CLASSES is an array with even number of elements. The first element
   # in each pair defines a pattern against which the current AWS profile gets matched.
@@ -1440,8 +1440,8 @@
   #   typeset -g POWERLEVEL9K_AWS_TEST_VISUAL_IDENTIFIER_EXPANSION='⭐'
   #   typeset -g POWERLEVEL9K_AWS_TEST_CONTENT_EXPANSION='> ${P9K_CONTENT} <'
   typeset -g POWERLEVEL9K_AWS_CLASSES=(
-      # '*prod*'  PROD    # These values are examples that are unlikely
-      # '*test*'  TEST    # to match your needs. Customize them as needed.
+      '*prod*'  PROD    # These values are examples that are unlikely
+      '*test*'  TEST    # to match your needs. Customize them as needed.
       '*'       DEFAULT)
   typeset -g POWERLEVEL9K_AWS_DEFAULT_FOREGROUND=7
   typeset -g POWERLEVEL9K_AWS_DEFAULT_BACKGROUND=1
@@ -1634,7 +1634,7 @@
 
   ################################[ battery: internal battery ]#################################
   # Show battery in red when it's below this level and not connected to power supply.
-  typeset -g POWERLEVEL9K_BATTERY_LOW_THRESHOLD=20
+  typeset -g POWERLEVEL9K_BATTERY_LOW_THRESHOLD=50
   typeset -g POWERLEVEL9K_BATTERY_LOW_FOREGROUND=1
   # Show battery in green when it's charging or fully charged.
   typeset -g POWERLEVEL9K_BATTERY_{CHARGING,CHARGED}_FOREGROUND=2
