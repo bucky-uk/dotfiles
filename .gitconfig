@@ -5,8 +5,8 @@
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [user]
-	name = "Steve O'Hara"
 	email = github@sohara.design
+	name = Bucky
 [merge]
 	tool = kdiff3
 [diff]

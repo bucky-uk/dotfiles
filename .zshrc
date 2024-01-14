@@ -9,12 +9,18 @@ fi
 [[ -s "/usr/local/share/goto.sh" ]] && source /usr/local/share/goto.sh
 
 # NVM lazy load
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
 if [ -s "$HOME/.nvm/nvm.sh" ]; then
   [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
   alias nvm='unalias nvm node npm && . "$NVM_DIR"/nvm.sh && nvm'
   alias node='unalias nvm node npm && . "$NVM_DIR"/nvm.sh && node'
   alias npm='unalias nvm node npm && . "$NVM_DIR"/nvm.sh && npm'
 fi
+
+# ASDF
+[[ -s "/opt/homebrew/opt/asdf/libexec/asdf.sh" ]] && . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 # Fix Interop Error that randomly occurs in vscode terminal when using WSL2
 fix_wsl2_interop() {
@@ -162,7 +168,7 @@ export STARSHIP_DISTRO="$ICON"
 
 # Load Starship
 eval "$(starship init zsh)"
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
@@ -181,4 +187,4 @@ setopt HIST_FIND_NO_DUPS
 
 # eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/angularic.omp.json)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
