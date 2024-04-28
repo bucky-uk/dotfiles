@@ -1,0 +1,626 @@
+history
+exi
+quit
+g current
+aws profile
+zsh
+yadm compare
+git --help
+yadm rm .zshist --cached
+yadm stash "merge with Razerback"
+yadm pull --ff
+yadm stash
+yadm pull
+yadm stash pop
+yadm diff
+yadm reset
+yadm reset --hard
+yadm status
+yadm rm .zshhist --cached
+yadm push -a -m "removed history file as it was annoying to keep in sync"
+yadm commit -a -m "removed history file as it was annoying to keep in sync"
+yadm push
+cd envs
+cd .aws
+mkdir .envs
+gh repo clone bucky-uk/envs
+gh repo clone bucky-uk/eb-environments
+rn eb-environments eb
+mv eb-environments eb
+setenv ebb dev
+code.
+git checkout 2.0.0
+git branch 2.0.0
+git checkout release/lagavulin
+git checkout tag:2.0.0
+git checkout tag/2.0.0
+git checkout tag
+git checkout --help
+nvm use16
+serverles
+serverless#
+tasklist
+task
+tasks
+sudo apt-get install htop
+htop
+kill -9 4943
+lsof -i tcp:3002
+git statuss
+setenv
+git statuts
+yharn
+alias ee="code ~/.envs"
+ee
+setenv eb leagacy
+cd b link
+setend eb legacy
+gh pull
+gh repo pull
+yarn install -g aws.cli
+yarn global add aws.cli
+yarn global add aws
+yarn global add aws-sdk
+mkdir downloads
+cd downloads
+sudo apt install unzip
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"\
+unzip awscliv2.zip
+cd aws
+sudo ./aws/install
+cd coide
+print S3_BUCKETNAME
+print $S3_BUCKETNAME
+S3_BUCKETNAME
+$S3_BUCKETNAME
+$S3_BUCKET
+aws s3 mb "s3://$S3_BUCKET"
+aws s3 mb $S3_BUCKET
+code makeBucket.sh
+aws s3 help
+makeBucket.sh
+makeBucket
+exec makeBucket.sh
+cd code/blink/eb-admin-ui
+print $GRAPH_QL
+sls info
+yarn prisma deploy --help
+code /.envs/
+aws cloudfront --help
+aws cloudfront
+aws
+aws --help
+aws cloudfront list-distributions
+aws cloudfront list-distributions help
+aws cloudfront help
+aws cloudfront list-distrubutions help
+yarn add --help
+yarn install --help
+yarn install -D jest
+yarn add jest --dev
+yarn add redoc-cli --dev
+yarn generateOCPIdoc
+setenv dev
+setenv dev eb
+yarn prisma1 deploy -d
+yarn deploy:serverless
+yarn prisma1 info
+explorer.exe .
+ssh-keygen -t ed25519 -b 4096 -C "sohara@blinkcharging.co.uk" -f blink-bitbucket
+cd ssh
+cd home
+ssh-add blink-bitbucket
+ps -auxc | grep ssh-agent
+cd ~
+ssh-add ~/blink-bitbucket
+cp blink-bitbucket ./ssh
+cp blink-bitbucket.pub ./ssh
+cp ~/blink-bitbucket.pub ~.ssh
+cp ~/blink-bitbucket.pub .ssh
+cp ~/blink-bitbucket .ssh
+cd .ssh
+cat blink-bitbucket.pub
+cd bl
+cd b2o
+sh pullAll.sh sohara-blink
+sudo apt-get jq
+sudo apt-get install jq
+mkdir b20
+git clone https://sohara-blink@bitbucket.org/blinkcharging/pricing-engine.git
+cd pricing-engine
+gitextensions .
+cat ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+eval $(ssh-agent)
+ssh -T git@bitbucket.org
+sh pullAll.sh sohara-blink blinkcharging
+yars
+yarn install chalk
+yarn add chalk
+yarn remove chalk
+yarn add chalk@4.1.0
+java version
+java -version
+sudo apt update
+sudo apt upgrade
+apt search openjdk
+sysctl -w vm.max_map_count=524288
+sudo sysctl -w vm.max_map_count=524288
+sudo sysctl -w fs.file-max=131072
+sudo ulimit -n 131072
+ulimit -n 131072
+ulimit -u 8192
+cd b20
+cd blinkcharging
+edit pullAll.sh
+git clone git@bitbucket.org:blinkcharging/charging-session.git
+cd charging-session
+git checkout feature/be-677
+git checkout feature/BE-677
+git remote add mirror git@github.com:soharadesign/blink-charging-session.git
+git branch -M feature/BE-677
+git push -u mirror feature/BE-677
+git checkout feature/1.2.0.0-lts2
+git push -u mirror feature/1.2.0.0-lts2
+git checkout feature/1.3.0.0-lts3
+git push -u mirror feature/1.3.0.0-lts3
+git checkout master
+git branch -m master main
+git push -u mirror main
+docker stop
+docker --help
+docker --helpdocker
+docker
+docker run -d --name sonar -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:9.2.0-community
+docker pull sonarqube:9.2.0-community
+docker stats
+docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:9.2.0-community
+docker pull sonarsource/sonar-scanner-cli
+docker run -it -v $(pwd):/usr/src â€ƒ´ link sonarqube:9.2.0-community sonarsource/sonar-scanner-cli -D sonar.host.url=http://sonarqube:9000 -D sonar.projectBaseDir=. -D sonar.sources=. -D sonar.projectName=â€ƒ¹Test-Projectâ€ƒ¹ -Dsonar.login=<specify your sonar login here> -X
+/usr/bin/git -C "/home/bucky/code/blink/eb-backend" -c "core.editor=code --wait --reuse-window" cherry-pick --no-commit ade18da565a949f39a9bd6fa09d083b81705cae3
+git add
+git add .
+git branch bugfix/city-ev-stop-commands
+nvm use 14#
+/usr/bin/git -C "/home/bucky/code/blink/eb-backend" -c "core.editor=code --wait --reuse-window" -c "sequence.editor=code --wait --reuse-window" rebase --interactive main
+/usr/bin/git -C "/home/bucky/code/blink/eb-backend" -c "core.editor=code --wait --reuse-window" branch --delete EB-213_Create_lambda_for_City_EV_runaways
+git branch -D EB-213_Create_lambda_for_City_EV_runaways
+ceb
+mkdir feature
+mkdir eb-211
+gh auth login
+git repo clone https://github.com/blink-charging/eb-backend
+git clone https://github.com/blink-charging/eb-backend
+git checkout feature/eb-211/migrate-greenflux-to-v2
+cd blink/eb-backend
+cd code/
+git branch feature/eb-211/migrate-greenflux-to-v2
+git checkout feature/eb-211/migrate-greenflux-to-v2 
+rm eb-backend
+gh repo clone blink-charging/eb-backend
+git clone https://github.com/blink-charging/eb-charging.git
+git clone https://github.com/blink-charging/eb-backend.git
+rm eb-charging
+rm eb-charging -r
+rm eb-backend -r
+yarn 
+code ~/.aws
+sls deploy --help
+sls deploy -p --help
+sls deploy -p .serverless
+setenv eb qas
+setenv eb qaa
+setenv eb
+setenv eb-dev
+yarn sls -v
+sls -dashboard
+sls --dashboard
+sls dashboard
+cd eb-charging
+c..
+cd macalla
+cd eb-
+cd features
+ls 
+code ~./zshrc
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" branch release/2.2.1-macallan 74e619dbe88ad42589bb927277601ba547c5c0e5
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" merge feature/eb-211/migrate-greenflux-to-v2
+yarn serverless:package
+kill -9 31825
+sls remove --stage qa --region eu-west-2
+sls remove --stage dev --region eu-west-2
+sls remove --stage prod --region eu-west-2
+yarn deploy:nobuild
+serverless deploy list
+kill -9 2306
+yarn deploy:nodata
+kill -9 2010
+kill -9 9816
+kill -9 17785
+kill -9 16484
+kill -9 30601
+kill -9 14631
+kill -9 11948
+kill -9 19308
+kill -9 16436
+kill -9 16426
+kill -9 23263
+kill -9 25690
+kill -9 28597
+kill -9 7029
+kill -9 7028
+kill -9 24474
+yarn sls start --help
+yarn sls --help
+yarn sls offline start --help
+kill -9 4066
+kill -9 17930
+kill -9 904
+kill -9 20010
+yarn start\
+
+yarn prisma1 deploy --help
+yarn prisma1 deploy --uat
+yarn prisma1 deploy uat
+yarn prisma1 --help
+kill -9 2605
+setenv eb uat
+sls remove --stage uat --region eu-west-2
+wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg\
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list\
+sudo apt update && sudo apt install terraform
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew
+(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/bucky/.zshrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+sudo apt-get install build-essential
+ brew install gcc
+brew install terragrunt
+sudo yum remove awscli
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"\
+unzip awscliv2.zip\
+sudo ./aws/install
+curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_64bit/session-manager-plugin.deb" -o "session-manager-plugin.deb"
+aws ec2 describe-instances
+[200~aws ec2 describe-instances \\
+--query "Reservations[*].Instances[*].{InstanceId:InstanceId,PublicIP:PublicIpAddress,PrivateIP:PrivateIpAddress,Name:Tags[?Key=='Name']|[0].Value,Type:InstanceType,Status:State.Name,VpcId:VpcId}" \\
+--filters Name=instance-state-name,Values=running \\
+--output table~
+aws ec2 describe-instances \\
+--query "Reservations[*].Instances[*].{InstanceId:InstanceId,PublicIP:PublicIpAddress,PrivateIP:PrivateIpAddress,Name:Tags[?Key=='Name']|[0].Value,Type:InstanceType,Status:State.Name,VpcId:VpcId}" \\
+--filters Name=instance-state-name,Values=running \\
+--output table
+aws rds describe-db-instances \\
+--query "DBInstances[*].{DBInstanceIdentifier:DBInstanceIdentifier,Endpoint:Endpoint.Address,DBName:DBName, Status:DBInstanceStatus,Engine:Engine}" \\
+--output table
+sudo dpkg -i session-manager-plugin.deb
+aws ssm start-session --region eu-west-2 \\
+--target "i-0d167efffe5f1021d" \\
+--document-name AWS-StartPortForwardingSessionToRemoteHost \\
+--parameters="host=eb-prisma-postgresql.crfp5djylxtl.eu-west-2.rds.amazonaws.com",portNumber="5432",localPortNumber="5432"
+aws-session-start i-0d167efffe5f1021d eb-prisma-postgresql.crfp5djylxtl.eu-west-2.rds.amazonaws.com
+l,s
+cd blin
+cls
+code ~/.envs/
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-go-app" -c "core.editor=code --wait --reuse-window" branch release/nomad main
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-go-app" -c "core.editor=code --wait --reuse-window" merge --ff-only origin/release/macallan
+git merge --?
+git merge -h
+git merge --abort
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" merge --ff-only main
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" merge origin/main
+sls -v
+sls --v
+sls --?
+sls -?
+sls -help
+sls -h
+sls build
+yarn sls --?
+yarn sls -?
+yarn serverless --H
+yarn serverless --h
+yarn --h
+yarn --?
+yarn -?
+yarn -help
+yarn install sls
+yarn add help
+yarn help add
+yarn add --dev sls
+yarn help remove
+yarn remove help
+serverless -help
+npm --help
+npm prune
+yarn serverless update
+yarn --dev add serverless
+sudo apt autoremove
+cd "/home/bucky/code/blink/release/macallan/eb-backend/"
+yarn prisma1 introspect
+yarn prisma1
+yarn prisma1 list
+yarn sls --v
+yarn run start
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" merge --ff-only origin/release/nomad
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" branch release/nomad-with-hotfix release/nomad
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" branch --delete release/nomad-with-hotfix
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" push -d origin release/nomad
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" branch --delete release/nomad
+git branch -D release/nomad
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" branch release/nomad main
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" reset origin/main
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" merge bugfix/occupied-status-errors
+yarn run test
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" reset release/nomad
+yarn add babel-plugin-root-import --dev
+lear
+ll
+setenv eb del
+yarn test
+yarn star
+cd node_modules
+rm -r node_modules
+rm -rf node_modules
+lsof -i TCP:3002 | grep LISTEN
+yarn --help
+yarn audiot
+yarn serverless build
+yarn prisma token
+yarn prisma2 token
+code .envs
+yarn add reusify
+yarn autoclean
+yarn autoclean --force
+git merge abort
+cd relea
+mkdir nomad
+gitorg blink-charging
+alias
+cd .evs
+/usr/bin/git -C "/home/bucky/.envs/eb" -c "core.editor=code --wait --reuse-window" branch release/nomad 6725f29d075eaa519563483589296ab5e44dc4f3
+bookmark nomad
+eval `ssh-agent -s`
+ssh -l
+git branch release/nomad
+git repo sync
+gh repo sync
+cd eb-go-app
+yarn prisma1 token
+yarn serverless --help
+yarn remove sls
+yarn remove severless
+yarn remove serverless
+yarn install -d serverless
+yarn install -d react
+yarn remove react
+yarn add react
+yarn sls build
+yarn serverless package
+brew install serverless
+yarn install serverless
+yarn serverless
+yarn sls
+yarn buikld
+brew uninstall serverless
+yarn add serverless
+yarn builkd
+yarn builld
+yarn clean
+/usr/bin/git -C "/home/bucky/code/blink/release/macallan/eb-backend" -c "core.editor=code --wait --reuse-window" reset --hard release/nomad
+/usr/bin/git -C "/home/bucky/.envs/eb" -c "core.editor=code --wait --reuse-window" reset origin/main
+dmesg
+cd 
+cd .envs
+git push
+git push --set-upstream origin release/nomad
+gh --help
+gh pr create
+gh pr --help
+gh pr view --web
+brew install firefox
+cd eb
+nvm install 18
+nvm install 20
+node genToken.js
+clear
+sudo apt-get install -y --fix-missing postgresql postgresql-client libpq-dev build-essential
+rm node_modules
+rm node_modules -r
+git checkout release/nomad
+yarn log
+git --h
+git -help
+git help
+nvm
+nvm list
+yarn pull
+git pull
+yadm
+yarm
+man readme.md
+view readme.md
+cd release/maca
+yarn add xxhash-addon -D
+yarn add -d xxhash-addon
+yarn package
+serverless
+npm install -g serverless
+nvm use 20
+sls deploy graphql
+sls deploy function -f graphyql
+sls deploy function -f graphql
+sls dev
+sls dev -f graphql
+serverless info
+yarn deploy -f graphql
+serverless package
+nvm -l
+nvm l
+nvm --list
+nvm ls
+nvm use v18
+exit
+cd blink/release/nomad
+nvm use 18
+gitextensions.exe .
+node -v
+npm_config_yes=true npx yarn-audit-fix
+yarn audit --?
+yarn audit help
+yarn audit -help
+npm audit fix --force
+npm i --package-lock-only
+yarn help audiot
+yarn help audit
+yarn audit --level critical
+yarn update graphql-cli
+yarn help
+yarn upgrade
+yarn audit
+yarn cache clear
+yarn add @babel/preset-react
+yarn add babel-plugin-root-import
+yarn add @react-pdf/renderer
+npm -v
+npm ls
+npm ls -prod -json -depth=1
+yarn cache clean
+serverless plugin install -n serverless-domain-manager
+la
+sls package
+npm install -g serverless\
+sudo apt-get install -y --fix-missing postgresql postgresql-client libpq-dev build-essential
+sls invoke -f graphql
+sls invoke -f updateGreenflux
+code ~/.envs/eb
+cd code/blink/
+cd release/macallan
+cd feature
+cd eb-211
+code ~/.envs
+aws ssm start-session --region eu-west-2 --target $AWS_BASTION --document-name AWS-StartPortForwardingSessionToRemoteHost --parameters=host=$AWS_RDS_HOST,portNumber=5432,localPortNumber=5432
+ss
+setenv eb prod
+aws-ec2-list
+aws-rds-list
+aws-session-start i-0cd63ff3aa3e1f856 eb-prisma-postgresql.cys84ohx5z6y.eu-west-2.rds.amazonaws.com
+goto current
+yarn build
+yarn sls deploy
+setenv eb qa
+sls --help
+sls deploy list
+sls deploy
+sls help
+sls create_domain
+nvm 14
+sls
+yarn generate
+yarn prisma1 deploy
+yarn deploy
+cd eb-admin-ui
+git statu
+git log
+git branch -l
+git branch -lr
+git checkout macallan
+git branch release/macallan
+git checkout release/macallan
+cd devb
+cd dev
+cd release/eb-backend
+cd release/nomad
+ks
+code
+cd lagavulin
+cd maca
+cd macal
+cd macallan
+checkport 3002
+kill 30014
+nvm use 16
+yarn
+explorer.exe
+whoami
+cd blink
+cd release
+cd nomad
+cd eb-backend
+setenv eb dev
+printenv
+yarn status
+git status
+cd code/blink/release/macallan/eb-backend
+goto nomad
+cd code/blink/release/nomad/eb-backend
+nvm use 14
+setenv eb legacy
+code .
+yarn start
+goto -r current
+brew install goto
+goto -h
+exec wsl
+git clone https://github.com/iridakos/goto.git
+sudo ./install
+code ~/.zhsrc
+source ~/goto.sh
+source ~/goto/goto.sh
+cd ..
+mv goto code/iridakos/goto
+mkdir iridakos
+cd..
+cd .
+mv goto code/iridakos
+config
+code ~/.zshrc
+exec zshrc
+cd code
+cd iridakos
+cd goto
+source goto.sh
+goto
+configure
+where
+whereami
+ls
+cd
+exec zsh
+cd
+cd code
+ks
+ls
+cd blink/release/nomad/eb-backend
+goto
+source ~/goto.sh
+setenv eb legacyu
+setenv eb legacy
+nvm use 14
+yarn start
+source ~/code/iridakos/goto/goto.sh
+goto
+cd 
+cd code/blink/
+cd release
+cd nomad
+ls
+cd eb-backend
+setenv eb legacy
+nvm use 14
+yarn start
+cd
+cd code
+cd blink
+cd release
+cd nomad
+cd eb-backend
+nvm use 14
+nvm use 16
+yarn
+setenv eb legacy
+ : a0014a90-70e3-4311-a52a-d94b32c1c16a {"energyUsed":"3.52kWh","elapsedMinutes":66,"eventHistory":"6.8kb"}\
+clvhjysrisjhg0802l2sy8n68 --> IN_PROGRESS: a0014a90-70e3-4311-a52a-d94b32c1c16a {"energyUsed":"3.52kWh","elapsedMinutes":66,"eventHistory":"6.8kb"}\
+clvhjysrisjhg0802l2sy8n68 --> IN_PROGRESS
+yarn start
