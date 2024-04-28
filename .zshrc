@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Goto
-[[ -s "/usr/local/share/goto.sh" ]] && source /usr/local/share/goto.sh
+[[ -s "~/code/iridakos/goto/goto.sh" ]] && source ~/code/iridakos/goto/goto.sh
 
 # NVM lazy load
 export NVM_DIR=~/.nvm
@@ -112,6 +112,7 @@ aws-session-start() {
 
 
 # ALIAS COMMANDS
+alias configure="code ~/.zshrc"
 alias ls="exa --icons --group-directories-first"
 alias ll="exa --icons --group-directories-first -l"
 alias g="goto"
@@ -126,6 +127,8 @@ alias initconfig="yadm clone https://github.com/bucky-uk/dotfiles"
 alias android-studio="$HOME/applications/android-studio/bin/studio.sh"
 alias aws-ec2-list=" aws ec2 describe-instances --query \"Reservations[*].Instances[*].{InstanceId:InstanceId,PublicIP:PublicIpAddress,PrivateIP:PrivateIpAddress,Name:Tags[?Key=='Name']|[0].Value,Type:InstanceType,Status:State.Name,VpcId:VpcId}\" --filters Name=instance-state-name,Values=running --output table"
 alias aws-rds-list="aws rds describe-db-instances --query \"DBInstances[*].{DBInstanceIdentifier:DBInstanceIdentifier,Engine:Engine,Status:DBInstanceStatus,Endpoint:Endpoint.Address,Port:Endpoint.Port,InstanceClass:DBInstanceClass,MultiAZ:MultiAZ}\" --output table"
+alias ss='aws ssm start-session --region eu-west-2 --target "$AWS_BASTION" --document-name AWS-StartPortForwardingSessionToRemoteHost --parameters=host="$AWS_RDS_HOST",portNumber=5432,localPortNumber=5432'
+
 
 # find out which distribution we are running on
 LFILE="/etc/*-release"
