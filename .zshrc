@@ -189,5 +189,4 @@ setopt HIST_FIND_NO_DUPS
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/angularic.omp.json)"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
