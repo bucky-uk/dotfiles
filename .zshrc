@@ -170,13 +170,9 @@ esac
 export STARSHIP_DISTRO="$ICON"
 
 # Load Starship
-<<<<<<< Updated upstream
 eval "$(starship init zsh)"
-source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
-=======
-# eval "$(starship init zsh)"
+## source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
 source ~/powerlevel10k/powerlevel10k.zsh-theme
->>>>>>> Stashed changes
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
