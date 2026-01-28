@@ -113,8 +113,8 @@ aws-session-start() {
 
 # ALIAS COMMANDS
 alias configure="code ~/.zshrc"
-alias ls="exa --icons --group-directories-first"
-alias ll="exa --icons --group-directories-first -l"
+alias ls="eza --icons --group-directories-first"
+alias ll="eza --icons --group-directories-first -l"
 alias g="goto"
 alias grep='grep --color'
 
@@ -171,7 +171,7 @@ export STARSHIP_DISTRO="$ICON"
 
 # Load Starship
 # eval "$(starship init zsh)"
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
