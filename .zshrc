@@ -113,8 +113,8 @@ aws-session-start() {
 
 # ALIAS COMMANDS
 alias configure="code ~/.zshrc"
-alias ls="exa --icons --group-directories-first"
-alias ll="exa --icons --group-directories-first -l"
+alias ls="eza --icons --group-directories-first"
+alias ll="eza --icons --group-directories-first -l"
 alias g="goto"
 alias grep='grep --color'
 
@@ -167,12 +167,6 @@ case $_distro in
     *)                       ICON="";;
 esac
 
-export STARSHIP_DISTRO="$ICON"
-
-# Load Starship
-# eval "$(starship init zsh)"
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 export ANDROID_HOME=$HOME/Android/Sdk
@@ -190,3 +184,8 @@ setopt HIST_FIND_NO_DUPS
 
 # eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/angularic.omp.json)"
 source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
+
+export STARSHIP_DISTRO="$ICON"
+
+# Load Starship
+eval "$(starship init zsh)"
