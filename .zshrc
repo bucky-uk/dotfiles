@@ -171,7 +171,6 @@ export STARSHIP_DISTRO="$ICON"
 
 # Load Starship
 # eval "$(starship init zsh)"
-source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
