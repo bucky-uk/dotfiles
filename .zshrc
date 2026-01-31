@@ -183,9 +183,10 @@ setopt HIST_FIND_NO_DUPS
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/angularic.omp.json)"
-source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
+# source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
 
 export STARSHIP_DISTRO="$ICON"
 
 # Load Starship
 eval "$(starship init zsh)"
+neofetch 
