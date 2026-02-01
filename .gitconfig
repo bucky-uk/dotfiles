@@ -33,10 +33,12 @@
 	process = git-lfs filter-process
 
 [commit]
-    gpgsign = true
+	gpgsign = true
 
 [gpg]
-    format = ssh
+	format = ssh
 
 [user]
-    signingkey = ~/.ssh/id_ed25519_github.pub
+	signingkey = /Users/steve/.ssh/id_bucky_github_signing
+[gpg "ssh"]
+	allowedSignersFile = /Users/steve/.config/git/allowed_signers
