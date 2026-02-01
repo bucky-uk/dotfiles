@@ -5,7 +5,7 @@
 	helper = 
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [user]
-	email = github@sohara.design
+	email = github@soharadesign.com
 	name = Bucky
 [merge]
 	tool = kdiff3
@@ -20,3 +20,8 @@
 	gl = config --global -l
 	se = !git rev-list --all | xargs git grep -F
 	st = status -sb
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
