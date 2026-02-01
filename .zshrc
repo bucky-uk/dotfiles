@@ -170,7 +170,7 @@ esac
 export STARSHIP_DISTRO="$ICON"
 
 # Load Starship
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
@@ -187,5 +187,5 @@ setopt HIST_FIND_NO_DUPS
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/angularic.omp.json)"
-source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
+#eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/angularic.omp.json)"
+#source ~/code/romkatv/powerlevel10k/powerlevel10k.zsh-theme
