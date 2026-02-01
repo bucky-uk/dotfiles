@@ -1,16 +1,21 @@
 [credential "https://github.com"]
-	helper = 
-	helper = !/opt/homebrew/bin/gh auth git-credential
+    helper =
+    helper = !gh auth git-credential
+
 [credential "https://gist.github.com"]
-	helper = 
-	helper = !/opt/homebrew/bin/gh auth git-credential
+    helper =
+    helper = !gh auth git-credential
+
 [user]
-	email = github@soharadesign.com
+	email = bucky@sohara.design
 	name = Bucky
+
 [merge]
 	tool = kdiff3
+
 [diff]
 	guitool = kdiff3
+
 [alias]
 	ll = log --oneline
 	last = log -1 HEAD --stat
@@ -20,8 +25,18 @@
 	gl = config --global -l
 	se = !git rev-list --all | xargs git grep -F
 	st = status -sb
+
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+
+[commit]
+    gpgsign = true
+
+[gpg]
+    format = ssh
+
+[user]
+    signingkey = ~/.ssh/id_ed25519_github.pub

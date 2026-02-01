@@ -137,7 +137,7 @@ aws-session-start() {
 
 # --- Aliases ---
 alias edit="code"
-alias configure="edit ~/.zshrc | edit ~/.zprofile | edit ~/.p10k.zsh"
+alias configure="edit ~/.zshrc | edit ~/.zprofile | edit ~/.p10k.zsh | edit ~/.gitconfig | edit ~/.ssh/config"
 
 # Prefer eza if installed; otherwise fall back to ls
 if command -v eza >/dev/null 2>&1; then
